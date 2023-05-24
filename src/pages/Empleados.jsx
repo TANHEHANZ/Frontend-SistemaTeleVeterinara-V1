@@ -93,7 +93,7 @@ const Empleados = (mostrarempleados) => {
 };
 
 export default Empleados;
-const Padre = styled.article`
+ export const Padre = styled.article`
 width:90%;
 height:100%;
 margin:2.5em auto;

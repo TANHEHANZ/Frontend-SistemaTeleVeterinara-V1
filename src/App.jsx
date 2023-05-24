@@ -8,6 +8,8 @@ import Nav from './pages/Navegadores/Nav'
 import Empleados from './pages/Empleados'
 import Mascotas from './pages/Mascotas'
 import Propietariomascotas from './pages/Propietariomascotas'
+import Veterinarios from './pages/Veterinarios'
+import Visitas from './pages/Visitas'
 
 const  App=()=> {
 
@@ -23,6 +25,8 @@ const  App=()=> {
             <Route path='/Empleados' element={<Empleados/>}/>
             <Route path='/Mascotas' element={<Mascotas/>}/>
             <Route path='/Propietariomascotas' element={<Propietariomascotas/>}/>
+            <Route path='/Veterinarios' element={<Veterinarios/>}/>
+            <Route path='/Visitas' element={<Visitas/>}/>
           </Route> 
         </Routes>
         <Modal />

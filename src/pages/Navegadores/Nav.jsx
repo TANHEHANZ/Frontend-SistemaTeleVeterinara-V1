@@ -29,11 +29,11 @@ const Nav = () => {
         </section>
         <section>
           <img src="src/icons/veterinario.png" alt="img" />
-          <Linkes to="/">Veterinarios</Linkes>
+          <Linkes to="/Veterinarios">Veterinarios</Linkes>
         </section>
         <section>
           <img src="src/icons/revista.png" alt="img" />
-          <Linkes to="/">visitas</Linkes>
+          <Linkes to="/Visitas">visitas</Linkes>
         </section>
         <section>
           <img src="src/icons/veterinario.png" alt="img" />
