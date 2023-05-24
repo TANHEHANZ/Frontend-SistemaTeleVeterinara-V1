@@ -251,7 +251,7 @@ function Formempleado({ mostrarempleados }) {
 
 export default Formempleado
 
-const Input = styled.input`
+ export const Input = styled.input`
   margin: 5px;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
@@ -259,7 +259,7 @@ const Input = styled.input`
   outline: none;
 `;
 
-const Botonagregar = styled.button`
+ export const Botonagregar = styled.button`
   margin-top: 40px;
   width: 100%;
   color: white;
